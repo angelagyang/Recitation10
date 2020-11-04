@@ -28,6 +28,9 @@ public class SortWithSwapsPlugin implements GamePlugin {
         return new String("sort with swaps plugin");
     }
 
+    /**
+     * @return the grid width. returns an int
+     */
     public int getGridWidth() {
         return TEN;
     }
